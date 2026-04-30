@@ -210,6 +210,9 @@ local function set_highlights()
     ['@variable.builtin'] = { fg = C.dark_red },
     ['@variable.parameter'] = { fg = C.black },
     ['@variable.member'] = { fg = C.cyan },
+    ['@variable.jsdoc'] = { link = 'Comment' },
+    ['@variable.parameter.jsdoc'] = { link = 'Comment' },
+
     ['@constant.builtin'] = { fg = C.green, bold = true },
     ['@constant.macro'] = { fg = C.black },
     ['@constant.javascript'] = { fg = C.black, nocombine = true },
@@ -228,6 +231,7 @@ local function set_highlights()
     ['@type.definition'] = { fg = C.pink, bold = true },
     ['@type.javascript'] = { fg = C.cyan, bold = true },
     ['@type.builtin.javascript'] = { link = '@type.javascript' },
+    ['@tag.builtin.jsdoc'] = { link = 'Comment' },
     ['@type.jsdoc'] = { link = 'Comment' },
 
     ['@attribute'] = { fg = C.teal },
@@ -238,6 +242,7 @@ local function set_highlights()
     ['@function.macro'] = { fg = C.blue },
     ['@function.method'] = { fg = C.cyan, bold = true },
     ['@function.method.call.javascript'] = { fg = C.cyan, bold = false },
+
     ['@constructor'] = { fg = C.green, bold = true },
 
     ['@keyword'] = { fg = C.blue },
@@ -250,16 +255,19 @@ local function set_highlights()
     ['@keyword.return'] = { fg = C.pink },
     ['@keyword.exception'] = { fg = C.red },
     ['@keyword.directive'] = { fg = C.blue },
+    ['@keyword.jsdoc'] = { link = 'Comment' },
 
     ['@punctuation.delimiter'] = { fg = C.black },
     ['@punctuation.bracket'] = { fg = C.blue },
-    ['@punctuation.bracket.jsdoc'] = { link = 'Comment' },
     ['@punctuation.special'] = { fg = C.black },
+    ['@punctuation.bracket.jsdoc'] = { link = 'Comment' },
+    ['@punctuation.delimiter.jsdoc'] = { link = 'Comment' },
 
     ['@comment.error'] = { fg = C.white, bg = C.dark_red, bold = true },
     ['@comment.warning'] = { fg = C.white, bg = C.orange, bold = true },
     ['@comment.todo'] = { fg = C.emerald, bg = C.white, bold = true },
     ['@comment.note'] = { fg = C.carbon, bg = C.light_blue, bold = true },
+    ['@comment.documentation'] = { link = 'Comment' },
 
     ['@markup.strong'] = { bold = true },
     ['@markup.italic'] = { italic = true },

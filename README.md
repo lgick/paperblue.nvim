@@ -16,6 +16,8 @@ vim.pack.add({
 vim.cmd[[colorscheme paperblue]]
 ```
 
+<img alt="example" src="https://github.com/user-attachments/assets/7d78f192-6beb-4a28-b051-441eb9fcc330" />
+
 ## 🎨 Theme Palette
 
 You can access the palette in your own Lua configurations using `require('paperblue').palette`.
