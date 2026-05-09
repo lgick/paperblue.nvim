@@ -291,6 +291,28 @@ local function set_highlights()
     -- ==========================================
     SnacksPickerMatch = { bg = C.yellow, nocombine = true },
 
+    SnacksBack = { bg = C.white, nocombine = true },
+    SnacksCursor = { bg = C.light_grey, nocombine = true },
+    SnacksBorder = { bg = 'NONE', fg = C.light_grey, nocombine = true },
+    SnacksPrompt = { bg = C.white, fg = C.dark_grey, nocombine = true },
+    SnacksTitle = { fg = C.blue, bold = true, bg = 'NONE', nocombine = true },
+
+    SnacksPicker = { link = 'SnacksBack' },
+    SnacksPickerToggle = { link = 'SnacksBack' },
+    SnacksPickerPreviewTitle = { link = 'SnacksTitle' },
+    SnacksPickerBorder = { link = 'SnacksBorder' },
+    SnacksPickerPrompt = { link = 'SnacksPrompt' },
+    SnacksPickerListCursorLine = { link = 'SnacksCursor' },
+    SnacksPickerPreviewCursorLine = { link = 'SnacksCursor' },
+
+    SnacksPickerInput = { fg = C.black, bg = C.white, nocombine = true },
+    SnacksPickerInputSearch = { fg = C.green, bg = C.white, bold = true, nocombine = true },
+    SnacksPickerInputCursorLine = { link = 'SnacksBack' },
+
+    SnacksInputNormal = { link = 'SnacksBack' },
+    SnacksInputBorder = { link = 'SnacksBorder' },
+    SnacksInputTitle = { link = 'SnacksTitle' },
+
     -- ==========================================
     -- 6. BlinkCmp
     -- ==========================================
