@@ -392,7 +392,7 @@ local function set_highlights()
     GitSignsDeletePreview = { fg = C.dark_red, bg = 'NONE', nocombine = true },
 
     -- Измененные слова в режиме предпросмотра (preview)
-    --GitSignsAddInline = { nocombine = true },
+    GitSignsAddInline = { fg = C.green, bold = true, nocombine = true },
     GitSignsDeleteInline = { strikethrough = true, nocombine = true },
     GitSignsChangeInline = { fg = C.green, bold = true, nocombine = true },
 
