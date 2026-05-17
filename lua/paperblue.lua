@@ -225,7 +225,7 @@ local function set_highlights()
     ['@string.documentation'] = { fg = C.black },
     ['@string.regexp'] = { fg = C.olive },
     ['@string.escape'] = { fg = C.olive, bold = true },
-    ['@string.special.url'] = { fg = C.blue, underline = true },
+    ['@string.special.url'] = { fg = C.olive },
 
     ['@type.builtin'] = { fg = C.cyan },
     ['@type.definition'] = { fg = C.pink, bold = true },
