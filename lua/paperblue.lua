@@ -340,10 +340,6 @@ local function set_highlights()
 
     NvimTreeIndentMarker = { fg = C.dark_grey, nocombine = true },
 
-    NvimTreeIgnoredFile = { fg = C.light_grey, nocombine = true },
-    NvimTreeImageFile = { link = 'NvimTreeIgnoredFile' },
-    NvimTreeExecFile = { link = 'NvimTreeIgnoredFile' },
-
     -- ==========================================
     -- 8. GitSigns
     -- ==========================================
