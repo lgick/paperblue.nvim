@@ -338,8 +338,11 @@ local function set_highlights()
     NvimTreeCopiedHL = { bg = C.light_yellow, fg = C.carbon, nocombine = true },
     NvimTreeCutHL = { bg = C.light_orange, fg = C.carbon, nocombine = true },
 
-    NvimTreeImageFile = { fg = C.dark_grey, nocombine = true },
-    NvimTreeIndentMarker = { fg = C.light_grey, nocombine = true },
+    NvimTreeIndentMarker = { fg = C.dark_grey, nocombine = true },
+
+    NvimTreeIgnoredFile = { fg = C.light_grey, nocombine = true },
+    NvimTreeImageFile = { link = 'NvimTreeIgnoredFile' },
+    NvimTreeExecFile = { link = 'NvimTreeIgnoredFile' },
 
     -- ==========================================
     -- 8. GitSigns
