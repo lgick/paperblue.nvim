@@ -117,6 +117,8 @@ local function set_highlights()
 
     StatusLine = { fg = C.white, bg = C.cyan, bold = true },
     StatusLineNC = { fg = C.black, bg = C.light_grey },
+    StatusLineInsertEn = { fg = C.white, bg = C.dark_red, bold = true },
+    StatusLineInsertRu = { fg = C.white, bg = C.red, bold = true },
 
     QuickFixLine = { fg = C.red },
 
