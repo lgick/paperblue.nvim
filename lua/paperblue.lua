@@ -64,6 +64,8 @@ local function set_highlights()
     CursorColumn = { bg = C.off_white },
     CursorLine = { bg = C.off_white },
     CursorLineNr = { fg = C.rust, bg = C.off_white },
+    CursorLineNrInsertEn = { fg = C.cyan, bg = C.light_blue, bold = true },
+    CursorLineNrInsertRu = { fg = C.dark_red, bg = C.light_red, bold = true },
 
     Cursor = { fg = C.white, bg = C.cyan },
     lCursor = { link = 'Cursor' },
@@ -117,8 +119,8 @@ local function set_highlights()
 
     StatusLine = { fg = C.white, bg = C.cyan, bold = true },
     StatusLineNC = { fg = C.black, bg = C.light_grey },
-    StatusLineInsertEn = { fg = C.white, bg = C.dark_red, bold = true },
-    StatusLineInsertRu = { fg = C.white, bg = C.red, bold = true },
+    StatusLineInsertEn = { fg = C.cyan, bg = C.light_blue, bold = true },
+    StatusLineInsertRu = { fg = C.dark_red, bg = C.light_red, bold = true },
 
     QuickFixLine = { fg = C.red },
 
