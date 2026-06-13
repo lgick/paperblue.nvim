@@ -76,7 +76,7 @@ local function set_highlights()
     EndOfBuffer = { link = 'NonText' },
     NonText = { fg = C.dark_grey },
     Whitespace = { fg = C.light_grey },
-    SpecialKey = { fg = C.light_grey },
+    SpecialKey = { fg = C.dark_red },
 
     LineNr = { fg = C.dark_grey },
     LineNrAbove = { link = 'LineNr' },
