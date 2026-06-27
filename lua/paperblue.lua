@@ -277,7 +277,7 @@ local function set_highlights()
     ['@markup.italic'] = { italic = true },
     ['@markup.strikethrough'] = { strikethrough = true },
     ['@markup.underline'] = { underline = true },
-    ['@markup.heading'] = { fg = C.pink, bold = true },
+    ['@markup.heading'] = { fg = C.cyan, bold = true },
     ['@markup.link.url'] = { fg = C.blue, underline = true },
     ['@markup.raw'] = { fg = C.olive },
 
