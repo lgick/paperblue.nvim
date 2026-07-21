@@ -64,10 +64,13 @@ local function set_highlights()
     CursorColumn = { bg = C.off_white },
     CursorLine = { bg = C.off_white },
     CursorLineNr = { fg = C.rust, bg = C.off_white },
-    CursorLineNrInsertEn = { fg = C.cyan, bg = C.light_blue, bold = true },
-    CursorLineNrInsertRu = { fg = C.dark_red, bg = C.light_red, bold = true },
 
-    Cursor = { fg = C.white, bg = C.cyan },
+    Cursor = { fg = C.white, bg = C.black },
+
+    CursorInsert = { fg = C.white, bg = C.black },
+    CursorInsertEn = { fg = C.white, bg = C.cyan },
+    CursorInsertRu = { fg = C.white, bg = C.dark_red },
+
     lCursor = { link = 'Cursor' },
     CursorIM = { link = 'Cursor' },
     TermCursor = { fg = C.white, bg = C.cyan },
@@ -536,6 +539,7 @@ function M.load()
   vim.o.background = 'light'
   vim.o.termguicolors = true
   vim.g.colors_name = 'paperblue'
+  vim.opt.guicursor = 'n-v-c-sm:block-Cursor,i-ci-ve:ver25-CursorInsert,r-cr-o:hor20'
 
   -- 3. Colors
   set_highlights()
