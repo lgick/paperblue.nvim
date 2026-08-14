@@ -125,6 +125,10 @@ local function set_highlights()
     StatusLineInsertEn = { fg = C.cyan, bg = C.light_blue, bold = true },
     StatusLineInsertRu = { fg = C.dark_red, bg = C.light_red, bold = true },
 
+    StatusLineHelp = { fg = C.green, bg = C.light_green, bold = true },
+    StatusLineNotModifiable = { fg = C.dark_red, bg = C.light_orange, bold = true },
+    StatusLineReadOnly = { fg = C.dark_red, bg = C.light_orange, bold = true },
+
     QuickFixLine = { fg = C.red },
 
     SpellBad = { undercurl = true, sp = C.dark_red },
