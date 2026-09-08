@@ -280,9 +280,15 @@ local function set_highlights()
     ['@markup.italic'] = { italic = true },
     ['@markup.strikethrough'] = { strikethrough = true },
     ['@markup.underline'] = { underline = true },
-    ['@markup.heading'] = { fg = C.black, bold = true },
     ['@markup.link.url'] = { fg = C.blue, underline = true },
-    ['@markup.raw'] = { fg = C.olive },
+    ['@markup.raw'] = { fg = C.green, bg = C.off_white },
+
+    ['@markup.heading.1'] = { bg = C.light_blue, bold = true },
+    ['@markup.heading.2'] = { bg = C.light_green, bold = true },
+    ['@markup.heading.3'] = { bg = C.light_yellow, bold = true },
+    ['@markup.heading.4'] = { bg = C.light_orange, bold = true },
+    ['@markup.heading.5'] = { bg = C.light_red, bold = true },
+    ['@markup.heading.6'] = { bg = C.ash, bold = true },
 
     ['@diff.plus'] = { fg = C.green },
     ['@diff.minus'] = { fg = C.red },
@@ -488,16 +494,6 @@ local function set_highlights()
 
     -- Прочее / специальные элементы
     -- DiffviewNonText -- символы вроде ^M, табы, невидимые символы
-
-    -- ==========================================
-    -- 9. Render Markdown
-    -- ==========================================
-    RenderMarkdownH1Bg = { bg = C.light_blue },
-    RenderMarkdownH2Bg = { bg = C.light_green },
-    RenderMarkdownH3Bg = { bg = C.light_yellow },
-    RenderMarkdownH4Bg = { bg = C.light_orange },
-    RenderMarkdownH5Bg = { bg = C.light_red },
-    RenderMarkdownH6Bg = { bg = C.ash },
   }
 
   local nvimTreeColors = {
