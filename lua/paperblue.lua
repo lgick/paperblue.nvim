@@ -8,7 +8,7 @@ M.config = {
 M.palette = {
 
   -- grey
-  white = '#eeeeee',
+  white = '#f5f5f5',
   light_grey = '#c7c7c7',
   dark_grey = '#838383',
   black = '#464646',
