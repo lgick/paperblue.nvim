@@ -283,7 +283,7 @@ local function set_highlights()
     ['@markup.strikethrough'] = { strikethrough = true },
     ['@markup.underline'] = { underline = true },
     ['@markup.link.url'] = { fg = C.blue, underline = true },
-    ['@markup.raw'] = { fg = C.green, bg = C.off_white },
+    ['@markup.raw'] = { fg = C.green },
 
     ['@markup.heading.1'] = { bg = C.light_blue, bold = true },
     ['@markup.heading.2'] = { bg = C.light_green, bold = true },
