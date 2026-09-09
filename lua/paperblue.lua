@@ -282,7 +282,7 @@ local function set_highlights()
     ['@markup.underline'] = { underline = true },
     ['@markup.link.label'] = { fg = C.pink, underline = true },
     ['@markup.link.url'] = { fg = C.dark_grey, underline = false },
-    ['@markup.raw'] = { bg = C.light_orange },
+    ['@markup.raw'] = { bg = C.off_white, fg = C.teal },
     ['@markup.raw.block'] = { bg = C.off_white },
 
     ['@markup.heading.1'] = { bg = C.light_blue, bold = true },
