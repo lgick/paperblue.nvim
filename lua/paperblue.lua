@@ -496,6 +496,15 @@ local function set_highlights()
 
     -- Прочее / специальные элементы
     -- DiffviewNonText -- символы вроде ^M, табы, невидимые символы
+
+    -- ==========================================
+    -- 10. MARKDOWN TABLES
+    -- ==========================================
+    MdTableBorder = { fg = C.dark_grey },
+    MdTableHead = { fg = C.black, bg = C.light_grey, bold = true },
+    MdTableCell = { fg = C.black, bg = bg_color },
+    MdTableCellOdd = { fg = C.black, bg = bg_color },
+    MdTableCellEven = { fg = C.black, bg = C.off_white },
   }
 
   local nvimTreeColors = {
