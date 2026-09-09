@@ -280,7 +280,7 @@ local function set_highlights()
     ['@markup.italic'] = { italic = true },
     ['@markup.strikethrough'] = { strikethrough = true },
     ['@markup.underline'] = { underline = true },
-    ['@markup.link.label'] = { fg = C.dark_red, underline = true },
+    ['@markup.link.label'] = { fg = C.pink, underline = true },
     ['@markup.link.url'] = { fg = C.dark_grey, underline = false },
     ['@markup.raw'] = { bg = C.light_yellow },
     ['@markup.raw.block'] = { bg = C.off_white },
