@@ -7,11 +7,8 @@ M.config = {
 
 M.palette = {
 
-  -- white
-  white = '#f3f6f9',
-  off_white = '#e6ecf2',
-
   -- grey
+  white = '#eeeeee',
   light_grey = '#c7c7c7',
   dark_grey = '#838383',
   black = '#464646',
@@ -29,6 +26,7 @@ M.palette = {
   purple = '#8700af',
 
   -- other
+  off_white = '#e4e4e4',
   ash = '#b2b2b2',
   carbon = '#636363',
   rust = '#af5f00',
